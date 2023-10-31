@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/5mm_site/static/css/main.a3ac04d4.css",
+    "main.js": "/5mm_site/static/js/main.5eb6fc22.js",
+    "static/media/DSC 1080p.mp4": "/5mm_site/static/media/DSC 1080p.b66fd0451c1b69141f23.mp4",
+    "static/media/DJ Verse - 1080p.mp4": "/5mm_site/static/media/DJ Verse - 1080p.efaebc38252cceefc217.mp4",
+    "static/media/Dr. Reddy 1080p.mp4": "/5mm_site/static/media/Dr. Reddy 1080p.a0772df0fdfec9818f4e.mp4",
+    "static/media/Cricket 1080p.mp4": "/5mm_site/static/media/Cricket 1080p.157233e95d6f9e5f766e.mp4",
+    "static/media/Ram 1 - Landscape 1080p - Black bars.mp4": "/5mm_site/static/media/Ram 1 - Landscape 1080p - Black bars.7d0ddd03a3a2de9e3e0c.mp4",
+    "static/media/Rajeev.png": "/5mm_site/static/media/Rajeev.57d3241a671e81a984ee.png",
+    "static/media/Vishal.jpg": "/5mm_site/static/media/Vishal.a153570d606645817b93.jpg",
+    "static/media/Aseem.jpg": "/5mm_site/static/media/Aseem.2d6a95d9915d815ed3c4.jpg",
+    "static/media/Fantunez.png": "/5mm_site/static/media/Fantunez.a7257be183e51a31f164.png",
+    "static/media/FiveMM Logo - Black Border.png": "/5mm_site/static/media/FiveMM Logo - Black Border.efee2b9e80f459bf9425.png",
+    "static/media/Vaibhav.jpg": "/5mm_site/static/media/Vaibhav.84463445d21c3ec1b809.jpg",
+    "static/media/Dr-Reddys-launches-drug-blood-pressure-drug-in-US.png": "/5mm_site/static/media/Dr-Reddys-launches-drug-blood-pressure-drug-in-US.4da7afeafb2f2e57736b.png",
+    "static/media/Snehil.jpg": "/5mm_site/static/media/Snehil.4ad230b665f211c09813.jpg",
+    "static/media/digital-7 (mono).ttf": "/5mm_site/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
+    "static/media/winzo-20220822112243.jpg": "/5mm_site/static/media/winzo-20220822112243.bf6c067e683b2ab9901d.jpg",
+    "static/media/gametion-20220603175124.png": "/5mm_site/static/media/gametion-20220603175124.2764fd9accab9be4a82e.png",
+    "index.html": "/5mm_site/index.html",
+    "main.a3ac04d4.css.map": "/5mm_site/static/css/main.a3ac04d4.css.map",
+    "main.5eb6fc22.js.map": "/5mm_site/static/js/main.5eb6fc22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3ac04d4.css",
+    "static/js/main.5eb6fc22.js"
+  ]
+}

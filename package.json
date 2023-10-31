@@ -2,7 +2,7 @@
   "homepage": "https://Sushiii07.github.io/5mm_site",
   "name": "site_draft2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.17.0",

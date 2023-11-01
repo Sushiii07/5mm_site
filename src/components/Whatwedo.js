@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState, useRef, useEffect } from 'react'
 import ReactTyped from "react-typed";
 import './Whatwedo.css'
 

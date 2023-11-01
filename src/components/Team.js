@@ -1,6 +1,5 @@
 import React from 'react'
 import './Team.css'
-import RollingText from './Rollint_Text';
 import mem1 from '../assets/FiveMM Website Data/Images/Team Pics/Aseem.jpg'
 import mem2 from '../assets/FiveMM Website Data/Images/Team Pics/Rajeev.png'
 import mem3 from '../assets/FiveMM Website Data/Images/Team Pics/Snehil.jpg'
@@ -26,9 +25,9 @@ const Team = () => {
             <h3>Aseem</h3>
             <p>SCo-Founder, CEO</p>
             <div class="social-links">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
             </div>
           </div>
         </div>
@@ -40,9 +39,9 @@ const Team = () => {
             <h3>Snehil</h3>
             <p>Co-Founder, Game Designer</p>
             <div class="social-links">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a hef=""><i class="fab fa-facebook"></i></a>
+              <a hef=""><i class="fab fa-instagram"></i></a>
+              <a hef=""><i class="fab fa-twitter"></i></a>
             </div>
           </div>
         </div>
@@ -54,9 +53,9 @@ const Team = () => {
             <h3>Vishal Kumar</h3>
             <p>Senior 3D Artist</p>
             <div class="social-links">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
             </div>
           </div>
         </div>
@@ -82,9 +81,9 @@ const Team = () => {
             <h3>Vaibhav Shukla</h3>
             <p>Game Engineer</p>
             <div class="social-links">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
             </div>
           </div>
         </div>

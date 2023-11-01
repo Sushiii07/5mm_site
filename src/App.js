@@ -9,6 +9,7 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <Home />
         <Routes>
           <Route exact path='/' element={<Home />} />
         </Routes>

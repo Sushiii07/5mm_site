@@ -41,6 +41,7 @@ function Footer() {
         </li>
       </ul>
 
+
       {/* <ul class="social-media-list">
         <li>
           <a href="#" target="_blank" class="contact-icon">

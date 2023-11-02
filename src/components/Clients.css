@@ -38,7 +38,7 @@
 }
 
 .item {
-  animation: animate 5s alternate linear infinite;
+  animation: animate 15s alternate linear infinite;
   height: 130px;
 }
 

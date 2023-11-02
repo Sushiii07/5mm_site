@@ -1,10 +1,10 @@
 import React from 'react'
 import './Team.css'
 import mem1 from '../assets/FiveMM Website Data/Images/Team Pics/Aseem.jpg'
-import mem2 from '../assets/FiveMM Website Data/Images/Team Pics/Rajeev.png'
+import mem2 from '../assets/FiveMM Website Data/Images/Team Pics/rajeev_new.jpg'
 import mem3 from '../assets/FiveMM Website Data/Images/Team Pics/Snehil.jpg'
 import mem4 from '../assets/FiveMM Website Data/Images/Team Pics/Vaibhav.jpg'
-import mem5 from '../assets/FiveMM Website Data/Images/Team Pics/Vishal.jpg'
+import mem5 from '../assets/FiveMM Website Data/Images/Team Pics/vishal_new.jpg'
 import ReactTyped from "react-typed";
 
 const Team = () => {
@@ -13,7 +13,7 @@ const Team = () => {
     <div className='team-container'>
       <div className='heading'>
         <h1 id='team-heading'>
-          <ReactTyped strings={["OUR TEAM"]} typeSpeed={100} />
+          <ReactTyped strings={["OUR TEAM"]} typeSpeed={100} loop />
         </h1>
       </div>
       <div className='team-card-container'>
@@ -24,11 +24,11 @@ const Team = () => {
           <div class="caption">
             <h3>Aseem</h3>
             <p>SCo-Founder, CEO</p>
-            <div class="social-links">
+            {/* <div class="social-links">
               <a><i class="fab fa-facebook"></i></a>
               <a href=""><i class="fab fa-instagram"></i></a>
               <a href=""><i class="fab fa-twitter"></i></a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div class="profile-card">
@@ -38,11 +38,11 @@ const Team = () => {
           <div class="caption">
             <h3>Snehil</h3>
             <p>Co-Founder, Game Designer</p>
-            <div class="social-links">
+            {/* <div class="social-links">
               <a hef=""><i class="fab fa-facebook"></i></a>
               <a hef=""><i class="fab fa-instagram"></i></a>
               <a hef=""><i class="fab fa-twitter"></i></a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div class="profile-card">
@@ -52,11 +52,11 @@ const Team = () => {
           <div class="caption">
             <h3>Vishal Kumar</h3>
             <p>Senior 3D Artist</p>
-            <div class="social-links">
+            {/* <div class="social-links">
               <a href=""><i class="fab fa-facebook"></i></a>
               <a href=""><i class="fab fa-instagram"></i></a>
               <a href=""><i class="fab fa-twitter"></i></a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div class="profile-card">
@@ -66,11 +66,11 @@ const Team = () => {
           <div class="caption">
             <h3>Rajeev Mishra</h3>
             <p>2D/Concept Artist</p>
-            <div class="social-links">
+            {/* <div class="social-links">
               <a href="#"><i class="fab fa-facebook"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div class="profile-card">
@@ -80,11 +80,11 @@ const Team = () => {
           <div class="caption">
             <h3>Vaibhav Shukla</h3>
             <p>Game Engineer</p>
-            <div class="social-links">
+            {/* <div class="social-links">
               <a href=""><i class="fab fa-facebook"></i></a>
               <a href=""><i class="fab fa-instagram"></i></a>
               <a href=""><i class="fab fa-twitter"></i></a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

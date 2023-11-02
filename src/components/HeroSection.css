@@ -1,13 +1,9 @@
-/* * {
-  border: 1px solid white;
-} */
-
 .hero-container {
   display: flex;
   flex-direction: row;
   margin-top: 60px;
-  margin-left: 6.5vw;
-  margin-right: 6.5vw;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
 }
 
 .main-content {
@@ -64,11 +60,10 @@
 .hidden-text {
   color: #fff;
   position: absolute;
-  /* margin-left: 300px; */
-  padding-top: 20px;
+  margin-left: 50px;
+  padding-top: 50px;
   opacity: 0;
-  width: 1vw;
-  height: 49vh;
+  width: 40vw;
   align-items: end;
   transform: translateX(60%);
 }
@@ -78,11 +73,13 @@
   transition: 400ms;
 }
 
+.hidden-text:hover .main-video {
+  filter: brightness(40%);
+}
+
 .main-video-container:hover .hidden-text {
   opacity: 100%;
   transition: 400ms;
-  -webkit-backdrop-filter: brightness(60%);
-  backdrop-filter: brightness(60%);
   transform: translateX(0%);
 }
 

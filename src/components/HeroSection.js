@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
 import vid1 from '../assets/5MM Website Videos/Game Development - Cricket Raiders/Cricket 1080p.mp4';
 import vid2 from '../assets/5MM Website Videos/Game Development - Purrfect Mayhem/DSC 1080p.mp4';
@@ -20,12 +19,36 @@ function HeroSection() {
         vid4,
         vid5,
     ]
+
+    const heading = [
+        "Purrfect Mayhem",
+        "Cricket Raiders",
+        "DJ Verse (Virtual Concert)",
+        "Connect VR (Virtual Meetings)",
+        "Spiritual NFTs"
+    ]
+
+    const text = [
+        "Prepare for fur-midable action in 'Purrfect Mayhem', a thrilling top-down shooter that pits agile and cunning cats against hordes of menacing robots armed to the bolts! In this action-packed game, players take control of a squad of highly trained, gun-toting felines on a mission to defend their turf from an invasion of mechanical adversaries.",
+        "Welcome to the high seas and the fierce cricket pitches of 'Cricket Raiders' – the ultimate collectible card game that blends the daring world of Vikings and the cunning realm of Pirates in a thrilling showdown of bat and ball",
+        "Step into the future of entertainment with 'DJ-Verse', the ultimate virtual concert experience that brings artists and fans together in a digital realm like never before. In this groundbreaking event, music enthusiasts from around the world can unite in a virtual venue, immersing themselves in an electrifying fusion of music, technology, and community.",
+        "Introducing 'ConnectVR', the revolutionary app that seamlessly bridges the virtual gap for meetings and interactions across various platforms! With ConnectVR, you can join virtual webcam meetings on your VR headset, PC, mobile device, and more, making it the ultimate cross-platform solution for immersive and convenient connectivity.",
+        "At the forefront of the digital revolution, we specialize in crafting unique NFTs (Non-Fungible Tokens) that transcend traditional boundaries. Our expertise extends to NFT creation for a wide spectrum of applications, spanning the realms of gaming, websites, and Metaverses. Through our innovative approach, we transform digital assets and experiences into blockchain-backed, one-of-a-kind tokens, ushering in a new era of digital ownership and authenticity."
+    ]
+
     const [sliderData, setSliderData] = useState(vids[1])
+    const [sliderHead, setSliderHead] = useState(heading[1])
+    const [sliderText, setSliderText] = useState(text[1])
     const handleClick=(index) => {
         console.log(index);
         const slider = vids[index];
+        const newHeading = heading[index];
+        const newText = text[index];
         console.log("New video source:", slider);
+        console.log("New heading source:", newHeading);
         setSliderData(slider);
+        setSliderHead(newHeading);
+        setSliderText(newText);
     }
 
   return (
@@ -50,10 +73,10 @@ function HeroSection() {
                 <video key={sliderData} autoPlay loop muted className='main-video'>
                     <source src={sliderData} type="video/mp4" />
                 </video>
-                {/* <div className='hidden-text'>
-                    <h1>hello</h1>
-                    <p>sfszjbf,zdfjks,bs</p>
-                </div> */}
+                <div className='hidden-text'>
+                    <h1>{sliderHead}</h1>
+                    <p>{sliderText}</p>
+                </div>
 
             </div>
             <div className='video-icons'>

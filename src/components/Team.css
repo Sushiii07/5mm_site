@@ -28,11 +28,13 @@
     padding: 30px;
     border-radius: 50%;
     transition: .5s;
+    background-color: rgb(255, 255, 255);
 }
 
 .profile-card:hover {
     border-radius: 10px;
     height: 260px;
+    background-color: #ffffff;
 }
 
 .profile-card .img {
@@ -41,8 +43,8 @@
     height: 100%;
     transition: .6s;
     z-index: 99;
-    margin-top: -11px;
-    margin-left: -11px;
+    margin-top: -19px;
+    margin-left: -19px;
 }
 
 .profile-card:hover .img {
@@ -50,11 +52,12 @@
 }
 
 .img img {
-    width: 170px;
-    height: 170px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     box-shadow: 0 0 22px #3336;
     transition: .6s;
+    filter: grayscale(50%);
 }
 
 .profile-card:hover img {
@@ -63,7 +66,7 @@
 
 .caption {
     text-align: center;
-    transform: translateY(-80px);
+    transform: translateY(-50px);
     opacity: 0;
     transition: .6s;
 }

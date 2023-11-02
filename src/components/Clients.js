@@ -70,7 +70,7 @@ function Cards() {
     <div className='clients-container'>
       <div className='heading'>
         <h1 id='client-heading'>
-          <ReactTyped strings={["OUR CLIENTS"]} typeSpeed={100} />
+          <ReactTyped strings={["OUR CLIENTS"]} typeSpeed={100} loop />
         </h1>
       </div>
 

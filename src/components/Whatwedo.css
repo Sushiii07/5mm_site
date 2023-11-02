@@ -37,7 +37,7 @@ html {
 .card {
     width: 250px;
     height: 340px;
-    background: #5f5f5f;
+    /* background: #2f2f2f; */
     position: relative;
     display: flex;
     place-content: center;
@@ -98,7 +98,7 @@ html {
 .card::after {
     content: '';
     position: absolute;
-    background: #605e5e;
+    background: #2e2e2e;
     inset: 5px;
     border-radius: 15px;
 }

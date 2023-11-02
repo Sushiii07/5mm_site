@@ -39,8 +39,8 @@ function Navbar() {
 
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
-                <Linker className='nav-links' to="client-heading" offset={-200}>
-                  Client
+                <Linker className='nav-links' to="whatwedo-heading" offset={-120}>
+                  What we do?
                 </Linker>
               </li>
               <li className='nav-item'>

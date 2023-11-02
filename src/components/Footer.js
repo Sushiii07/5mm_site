@@ -1,10 +1,28 @@
 import React from 'react'
 import './Footer.css'
 import { Link as Linker, animateScroll as scroll } from "react-scroll";
+import logo from '../assets/FiveMM Website Data/Images/FiveMM Logos/FiveMM Logo - Black Border.png'
 
 function Footer() {
   return (
     <div className='footer'>
+      
+      <div className='moto'>
+        <h1 id='moto-1'>
+          Where Worlds  
+        </h1>
+        <h1 id='moto-2'>
+          Unfold &
+        </h1>
+        <h1 id='moto-3'>
+          Adventure Begin
+        </h1>
+      </div>
+
+      <div className='footer-logo'>
+        <img src={logo} alt=''></img>
+      </div>
+
       <ul className='footer-links-container'>
         <li className='footer-links-items'>
           <Linker className='footer-links' to="client-heading" offset={-200}>
@@ -23,7 +41,7 @@ function Footer() {
         </li>
       </ul>
 
-      <ul class="social-media-list">
+      {/* <ul class="social-media-list">
         <li>
           <a href="#" target="_blank" class="contact-icon">
             <i class="fa fa-github" aria-hidden="true">
@@ -48,7 +66,7 @@ function Footer() {
             </i>
           </a>
         </li>       
-      </ul>
+      </ul> */}
     </div>
   )
 }

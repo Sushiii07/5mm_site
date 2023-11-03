@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/5mm_site/static/css/main.c2adb2fc.css",
-    "main.js": "/5mm_site/static/js/main.845b12eb.js",
+    "main.css": "/5mm_site/static/css/main.659b2a0b.css",
+    "main.js": "/5mm_site/static/js/main.39fa31c9.js",
     "static/media/DSC 1080p.mp4": "/5mm_site/static/media/DSC 1080p.b66fd0451c1b69141f23.mp4",
     "static/media/DJ Verse - 1080p.mp4": "/5mm_site/static/media/DJ Verse - 1080p.efaebc38252cceefc217.mp4",
     "static/media/Dr. Reddy 1080p.mp4": "/5mm_site/static/media/Dr. Reddy 1080p.a0772df0fdfec9818f4e.mp4",
@@ -15,15 +15,19 @@
     "static/media/Vaibhav.jpg": "/5mm_site/static/media/Vaibhav.d7c211ee9591d3e699a2.jpg",
     "static/media/Dr-Reddys-launches-drug-blood-pressure-drug-in-US.png": "/5mm_site/static/media/Dr-Reddys-launches-drug-blood-pressure-drug-in-US.4da7afeafb2f2e57736b.png",
     "static/media/Snehil.jpg": "/5mm_site/static/media/Snehil.4ad230b665f211c09813.jpg",
+    "static/media/mobile_games.png": "/5mm_site/static/media/mobile_games.9de50b1c3fc89d511e11.png",
+    "static/media/Blockchain.png": "/5mm_site/static/media/Blockchain.1b351e4717d005b70b4b.png",
+    "static/media/mobile_app.png": "/5mm_site/static/media/mobile_app.7933b583c4932f835757.png",
     "static/media/digital-7 (mono).ttf": "/5mm_site/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
+    "static/media/website.png": "/5mm_site/static/media/website.eb8aa4a31a2ca3bf7f14.png",
     "static/media/winzo-20220822112243.jpg": "/5mm_site/static/media/winzo-20220822112243.bf6c067e683b2ab9901d.jpg",
     "static/media/gametion-20220603175124.png": "/5mm_site/static/media/gametion-20220603175124.2764fd9accab9be4a82e.png",
     "index.html": "/5mm_site/index.html",
-    "main.c2adb2fc.css.map": "/5mm_site/static/css/main.c2adb2fc.css.map",
-    "main.845b12eb.js.map": "/5mm_site/static/js/main.845b12eb.js.map"
+    "main.659b2a0b.css.map": "/5mm_site/static/css/main.659b2a0b.css.map",
+    "main.39fa31c9.js.map": "/5mm_site/static/js/main.39fa31c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2adb2fc.css",
-    "static/js/main.845b12eb.js"
+    "static/css/main.659b2a0b.css",
+    "static/js/main.39fa31c9.js"
   ]
 }

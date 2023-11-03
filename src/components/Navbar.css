@@ -1,6 +1,6 @@
 .navbar {
   height: 82px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   font-size: 1.2rem;
   position: fixed;
@@ -75,7 +75,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     height: 90vh;
     position: absolute;
     left: -100%;

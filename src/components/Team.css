@@ -97,3 +97,10 @@
 .social-links a:hover {
     color: #0c52a1;
 }
+
+
+@media (max-width:900px) {
+    #team-heading {
+        font-size: 40px;
+    }
+}

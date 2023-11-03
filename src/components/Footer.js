@@ -68,6 +68,11 @@ function Footer() {
           </a>
         </li>       
       </ul> */}
+      <div className='copyright'>
+        <p>
+          Copyright © 2023 FiveMM Games LLP - All Rights Reserved
+        </p>
+      </div>
     </div>
   )
 }

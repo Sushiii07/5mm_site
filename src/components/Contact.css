@@ -120,12 +120,12 @@ input {
 
 .contact-text {
     font: 300 18px 'Lato', sans-serif;
-    letter-spacing: 1.9px;
+    letter-spacing: 1.5px;
     color: #bbb;
 }
 
 .gmail {
-    margin-left: 53px;
+    margin-left: 4vw;
 }
 
 .contact-text a {

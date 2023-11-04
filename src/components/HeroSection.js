@@ -28,6 +28,14 @@ function HeroSection() {
         "Connect VR (Virtual Meetings)"
     ]
 
+    const id = [
+        "CricketRaiders",
+        "PurrfectMayhem",
+        "DJVerse",
+        "SpiritualNFTs",
+        "ConnectVR"
+    ]
+
     const text = [
         "Welcome to the high seas and the fierce cricket pitches of 'Cricket Raiders' – the ultimate collectible card game that blends the daring world of Vikings and the cunning realm of Pirates in a thrilling showdown of bat and ball",
         "Prepare for fur-midable action in 'Purrfect Mayhem', a thrilling top-down shooter that pits agile and cunning cats against hordes of menacing robots armed to the bolts! In this action-packed game, players take control of a squad of highly trained, gun-toting felines on a mission to defend their turf from an invasion of mechanical adversaries.",
@@ -39,16 +47,19 @@ function HeroSection() {
     const [sliderData, setSliderData] = useState(vids[1])
     const [sliderHead, setSliderHead] = useState(heading[1])
     const [sliderText, setSliderText] = useState(text[1])
+    const [sliderID, setSliderID] = useState(id[1])
     const handleClick=(index) => {
         console.log(index);
         const slider = vids[index];
         const newHeading = heading[index];
         const newText = text[index];
+        const newID = id[index];
         console.log("New video source:", slider);
         console.log("New heading source:", newHeading);
         setSliderData(slider);
         setSliderHead(newHeading);
         setSliderText(newText);
+        setSliderID(newID);
     }
 
   return (
@@ -82,7 +93,7 @@ function HeroSection() {
             <div className='video-icons'>
             {
                 vids.map((data, i) => (
-                <video key={i} muted onClick={() => handleClick(i)}>
+                <video key={i} muted onClick={() => handleClick(i)} id={sliderID}>
                     <source src={data} type="video/mp4" />
                 </video>
                 ))

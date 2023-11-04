@@ -83,7 +83,9 @@
   transform: translateX(0%);
 }
 
-
+#PurrfectMayhem {
+  border: 1px solid white;
+}
 
 @media (max-width: 900px) {
   .hero-container {
@@ -100,6 +102,18 @@
 
   .main-video-container {
     width: 98%;
+  }
+
+  .hidden-text {
+    color: #fff;
+    position: absolute;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+    opacity: 0;
+    width: 70%;
+    align-items: end;
+    transform: translateX(60%);
   }
 }
 

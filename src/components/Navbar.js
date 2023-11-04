@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import logo from '../assets/FiveMM Website Data/Images/FiveMM Logos/FiveMM Logo - Black Border.png'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
-import { Link as Linker, animateScroll as scroll } from "react-scroll";
+import { Link as Linker, animateScroll} from "react-scroll";
 
 function Navbar() {
     const [click, setClick] = useState(false);

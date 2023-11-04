@@ -25,18 +25,23 @@ function Footer() {
 
       <ul className='footer-links-container'>
         <li className='footer-links-items'>
+          <Linker className='footer-links' to="whatwedo-heading" offset={-100}>
+            What We Do?
+          </Linker>
+        </li>
+        <li className='footer-links-items'>
           <Linker className='footer-links' to="client-heading" offset={-200}>
-            Client
+            Out Clients
           </Linker>
         </li>
         <li className='footer-links-items'>
           <Linker className='footer-links' to="team-heading" offset={-100}>
-            Team
+            Our Team
           </Linker>
         </li>
         <li className='footer-links-items'>
           <Linker className='footer-links' to="contact-heading" offset={-100}>
-            Contact
+            Contact Us
           </Linker>
         </li>
       </ul>

@@ -31,7 +31,7 @@ function Footer() {
         </li>
         <li className='footer-links-items'>
           <Linker className='footer-links' to="client-heading" offset={-200}>
-            Out Clients
+            Our Clients
           </Linker>
         </li>
         <li className='footer-links-items'>

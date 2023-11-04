@@ -21,19 +21,19 @@ function HeroSection() {
     ]
 
     const heading = [
-        "Purrfect Mayhem",
         "Cricket Raiders",
+        "Purrfect Mayhem",
         "DJ Verse (Virtual Concert)",
-        "Connect VR (Virtual Meetings)",
-        "Spiritual NFTs"
+        "Spiritual NFTs",
+        "Connect VR (Virtual Meetings)"
     ]
 
     const text = [
         "Welcome to the high seas and the fierce cricket pitches of 'Cricket Raiders' – the ultimate collectible card game that blends the daring world of Vikings and the cunning realm of Pirates in a thrilling showdown of bat and ball",
         "Prepare for fur-midable action in 'Purrfect Mayhem', a thrilling top-down shooter that pits agile and cunning cats against hordes of menacing robots armed to the bolts! In this action-packed game, players take control of a squad of highly trained, gun-toting felines on a mission to defend their turf from an invasion of mechanical adversaries.",
         "Step into the future of entertainment with 'DJ-Verse', the ultimate virtual concert experience that brings artists and fans together in a digital realm like never before. In this groundbreaking event, music enthusiasts from around the world can unite in a virtual venue, immersing themselves in an electrifying fusion of music, technology, and community.",
-        "Introducing 'ConnectVR', the revolutionary app that seamlessly bridges the virtual gap for meetings and interactions across various platforms! With ConnectVR, you can join virtual webcam meetings on your VR headset, PC, mobile device, and more, making it the ultimate cross-platform solution for immersive and convenient connectivity.",
-        "At the forefront of the digital revolution, we specialize in crafting unique NFTs (Non-Fungible Tokens) that transcend traditional boundaries. Our expertise extends to NFT creation for a wide spectrum of applications, spanning the realms of gaming, websites, and Metaverses. Through our innovative approach, we transform digital assets and experiences into blockchain-backed, one-of-a-kind tokens, ushering in a new era of digital ownership and authenticity."
+        "At the forefront of the digital revolution, we specialize in crafting unique NFTs (Non-Fungible Tokens) that transcend traditional boundaries. Our expertise extends to NFT creation for a wide spectrum of applications, spanning the realms of gaming, websites, and Metaverses. Through our innovative approach, we transform digital assets and experiences into blockchain-backed, one-of-a-kind tokens, ushering in a new era of digital ownership and authenticity.",
+        "Introducing 'ConnectVR', the revolutionary app that seamlessly bridges the virtual gap for meetings and interactions across various platforms! With ConnectVR, you can join virtual webcam meetings on your VR headset, PC, mobile device, and more, making it the ultimate cross-platform solution for immersive and convenient connectivity."
     ]
 
     const [sliderData, setSliderData] = useState(vids[1])

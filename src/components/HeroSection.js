@@ -93,7 +93,7 @@ function HeroSection() {
             <div className='video-icons'>
             {
                 vids.map((data, i) => (
-                <video key={i} muted onClick={() => handleClick(i)} id={sliderID}>
+                <video key={i} muted onClick={() => handleClick(i)}>
                     <source src={data} type="video/mp4" />
                 </video>
                 ))

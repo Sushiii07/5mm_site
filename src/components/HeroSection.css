@@ -108,12 +108,19 @@
     color: #fff;
     position: absolute;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 10px;
     opacity: 0;
-    width: 70%;
+    width: 45%;
     align-items: end;
     transform: translateX(60%);
+  }
+
+  .main-video-container:hover .hidden-text {
+    width: 65%;
+    opacity: 100%;
+    transition: 400ms;
+    transform: translateX(0%);
   }
 }
 

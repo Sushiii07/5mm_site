@@ -48,6 +48,9 @@ function HeroSection() {
     const [sliderHead, setSliderHead] = useState(heading[1])
     const [sliderText, setSliderText] = useState(text[1])
     const [sliderID, setSliderID] = useState(id[1])
+    
+    const [selectedDot, setSelectedDot] = useState(0); // Initial selected dot index
+
     const handleClick=(index) => {
         console.log(index);
         const slider = vids[index];
@@ -60,6 +63,7 @@ function HeroSection() {
         setSliderHead(newHeading);
         setSliderText(newText);
         setSliderID(newID);
+        setSelectedDot(index);
     }
 
   return (
@@ -90,12 +94,19 @@ function HeroSection() {
                 </div>
 
             </div>
-            <div className='video-icons'>
+            {/* <div className='video-icons'>
             {
                 vids.map((data, i) => (
                 <video key={i} muted onClick={() => handleClick(i)}>
                     <source src={data} type="video/mp4" />
                 </video>
+                ))
+            }
+            </div> */}
+            <div className='slider-navigation'>
+            {
+                vids.map((data, i) => (
+                    <div key={i} onClick={() => handleClick(i)} className={`nav-btn ${selectedDot === i ? 'active' : ''}`} ></div>
                 ))
             }
             </div>
@@ -105,3 +116,10 @@ function HeroSection() {
 }
 
 export default HeroSection;
+
+
+/*
+
+const btns = document.querySelectorAll(".nav-btn");
+
+*/

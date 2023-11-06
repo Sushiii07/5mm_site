@@ -45,10 +45,6 @@ const particlesLoaded = useCallback(async container => {
               fpsLimit: 120,
               interactivity: {
                 events: {
-                  onClick: {
-                    enable: true,
-                    mode: "push",
-                  },
                   onHover: {
                     enable: true,
                     mode: "repulse",
@@ -73,7 +69,7 @@ const particlesLoaded = useCallback(async container => {
                   color: "#0fff0f",
                   distance: 150,
                   enable: true,
-                  opacity: 0.5,
+                  opacity: 0.6,
                   width: 1,
                 },
                 move: {
@@ -83,7 +79,7 @@ const particlesLoaded = useCallback(async container => {
                     default: "bounce",
                   },
                   random: false,
-                  speed: 2,
+                  speed: 1,
                   straight: false,
                 },
                 number: {

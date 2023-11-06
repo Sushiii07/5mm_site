@@ -56,6 +56,8 @@ function HeroSection() {
         const nextIndex = (selectedDot + 1) % vids.length;
         setSelectedDot(nextIndex);
         setSliderData(vids[nextIndex]);
+        setSliderHead(heading[nextIndex]);
+        setSliderText(text[nextIndex]);
       };
 
     const handleClick=(index) => {

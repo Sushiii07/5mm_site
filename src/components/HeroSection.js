@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import '../App.css';
 import './HeroSection.css';
 import vid1 from '../assets/5MM Website Videos/Game Development - Cricket Raiders/Cricket 1080p.mp4';
@@ -44,12 +44,19 @@ function HeroSection() {
         "Introducing 'ConnectVR', the revolutionary app that seamlessly bridges the virtual gap for meetings and interactions across various platforms! With ConnectVR, you can join virtual webcam meetings on your VR headset, PC, mobile device, and more, making it the ultimate cross-platform solution for immersive and convenient connectivity."
     ]
 
-    const [sliderData, setSliderData] = useState(vids[1])
-    const [sliderHead, setSliderHead] = useState(heading[1])
-    const [sliderText, setSliderText] = useState(text[1])
-    const [sliderID, setSliderID] = useState(id[1])
+    const [sliderData, setSliderData] = useState(vids[0])
+    const [sliderHead, setSliderHead] = useState(heading[0])
+    const [sliderText, setSliderText] = useState(text[0])
+    const [sliderID, setSliderID] = useState(id[0])
     
-    const [selectedDot, setSelectedDot] = useState(0); // Initial selected dot index
+    const [selectedDot, setSelectedDot] = useState(0);
+
+    const handleVideoEnded = () => {
+        console.log("New video");
+        const nextIndex = (selectedDot + 1) % vids.length;
+        setSelectedDot(nextIndex);
+        setSliderData(vids[nextIndex]);
+      };
 
     const handleClick=(index) => {
         console.log(index);
@@ -85,9 +92,23 @@ function HeroSection() {
         <div className='hero-container-videos'>
             <div className='main-video-container'>
 
-                <video key={sliderData} autoPlay loop muted className='main-video'>
+                <video key={sliderData} autoPlay muted className='main-video' onEnded={handleVideoEnded}>
                     <source src={sliderData} type="video/mp4" />
                 </video>
+
+                {/* {vids.map((data, i) => (
+                    <video
+                        key={i}
+                        autoPlay
+                        loop
+                        muted
+                        onEnded={() => handleVideoEnd(i)}
+                        className="main-video"
+                        ref={videoRefs.current[i]}
+                    >
+                        <source src={data} type="video/mp4" />
+                    </video>
+                ))} */}
                 <div className='hidden-text'>
                     <h1>{sliderHead}</h1>
                     <p>{sliderText}</p>

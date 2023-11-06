@@ -147,6 +147,10 @@
     transition: 400ms;
     transform: translateX(0%);
   }
+
+  .slider-navigation .nav-btn:hover {
+    transform: scale(1);
+  }
 }
 
 /* width */
